@@ -5,7 +5,7 @@ app = Flask(__name__)
 client = genai.Client(api_key="API KEY")
 
 
-ACTIVE_MODEL = "gemini-3.5-flash"
+ACTIVE_MODEL = "gemini-1.5-flash"
 
 @app.route("/")
 def hello_world():
